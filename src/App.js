@@ -1,4 +1,5 @@
 import PackingList from "./PackingList";
+import "./style/tailwind.css";
 
 // function Profile() {
 //   return (
