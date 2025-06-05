@@ -1,29 +1,9 @@
-import PackingList from "./PackingList";
-import "./style/tailwind.css";
+import Example from "./components/common/Navbar/Navbar";
 
-// function Profile() {
-//   return (
-//     <>
-//       <img
-//         src="https://i.imgur.com/MK3eW3As.jpg"
-//         alt="Katherine Johnson"
-//       />
-//       <ul>
-//         <li>Invent new traffic lights</li>
-//         <li>Rehearse a movie scene</li>
-//         <li>Improve spectrum technology</li>
-//       </ul>
-//     </>
-//   );
-// }
-
-// function Gallery() {
-//   return (
-//     <section>
-//       <h1>Test</h1>
-//       <Profile />
-//     </section>
-//   );
-// }
-
-export default PackingList;
+function App() {
+    return (<div>
+        <Example></Example>
+        <h1>Home</h1>
+    </div>);
+}
+export default App;
