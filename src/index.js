@@ -9,6 +9,7 @@ import {
 import App from './App';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
+import Dashboard from './components/Dashboard/Dashboard';
 import reportWebVitals from './reportWebVitals';
 import "./styles/tailwind.css";
 
@@ -16,7 +17,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
     </Routes>
   </BrowserRouter>
