@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -70,9 +71,9 @@ const Login = () => {
           </div>
 
           <div className="flex items-center justify-between text-sm">
-            <a href="#" className="font-medium text-green-600 hover:text-green-500">
+            <Link to="/register" className="font-medium text-green-600 hover:text-green-500">
               회원가입
-            </a>
+            </Link>
             <a href="#" className="font-medium text-green-600 hover:text-green-500">
               비밀번호 찾기
             </a>

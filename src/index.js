@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import App from './App';
 import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 import reportWebVitals from './reportWebVitals';
 import "./styles/tailwind.css";
 
@@ -16,7 +17,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Login />} />
-      {/* <Route path="users/*" element={<Users />} /> */}
+      <Route path="/register" element={<Register />} />
     </Routes>
   </BrowserRouter>
 );
