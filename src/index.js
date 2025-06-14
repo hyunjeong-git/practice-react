@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import App from './App';
+import Login from './components/Login/Login';
 import reportWebVitals from './reportWebVitals';
 import "./styles/tailwind.css";
 
@@ -14,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Login />} />
       {/* <Route path="users/*" element={<Users />} /> */}
     </Routes>
   </BrowserRouter>
